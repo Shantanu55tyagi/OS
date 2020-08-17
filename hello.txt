@@ -1,0 +1,14 @@
+HELLO WORD
+echo "What is your name?"
+read num
+echo "Hello, $num"
+echo "what is your father's name?"
+num2="JOHN"
+echo "hello, Mr!$num1"
+
+OUTPUT
+What is your name?
+Hello, sam
+what is your father's name?
+hello, Mr!
+
