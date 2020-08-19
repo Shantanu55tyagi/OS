@@ -1,0 +1,15 @@
+SUM OF NUMBERS
+n=34
+sum=0
+while [ $n -gt 0 ]
+do
+   t=`expr $n % 10`
+   sum=`expr $sum + $t`
+   n=`expr $n / 10`
+   done
+echo "sum of digits is=$sum"
+
+OUTPUT
+
+sum of digits is=7
+
