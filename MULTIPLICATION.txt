@@ -1,0 +1,16 @@
+MULTIPLICATION
+echo "multiplication table"
+echo "enter number"
+read n
+m=0
+for((k=1;k<=10;k++))
+do
+m=` expr $k \* $n `
+echo -n -e " $m\t"
+done
+
+OUTPUT
+multiplication table
+enter number
+ 4	 8	 12	 16	 20	 24	 28	 32	 36	 40	
+
