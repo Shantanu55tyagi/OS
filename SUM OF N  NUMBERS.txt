@@ -1,0 +1,17 @@
+SUM OF N  NUMBERS
+echo -n "Enter number : "
+read n
+i=1
+sum=0
+
+while [ $i -le $n ]
+  do
+   sum=$(( $sum + $i )) 
+        i=$(( $i + 1 ))
+  done
+echo  "Sum of all digit  is $sum"
+
+OUTPUT
+Enter number : Sum of all digit  is 10
+
+
